@@ -1,15 +1,15 @@
 
 import PropTypes from 'prop-types';
 
-// import { H3 } from './StatItem.styled';
+import { Li, Label, Perc } from './StatItem.styled';
 
 
-export const StatItem = ({id, label, percentage }) => {
+export const StatItem = ({ label, percentage }) => {
 	return (
-			<>
-				{label} 
-				{/* <H3>{percentage} </H3> */}
-			</>
+		<Li>
+			<Label>{label} </Label>
+			<Perc>{percentage}% </Perc>
+		</Li>
 	);
 };
 
