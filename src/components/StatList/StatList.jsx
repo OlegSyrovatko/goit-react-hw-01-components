@@ -17,8 +17,13 @@ export const StatList = ({ data }) => {
   );
 };
 
+
 StatList.propTypes = {
-	id: PropTypes.string.isRequired,
-	label: PropTypes.string.isRequired,
-	percentage: PropTypes.number,
+  data: PropTypes.arrayOf(
+    PropTypes.exact({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number,
+    })
+  ),
 };
