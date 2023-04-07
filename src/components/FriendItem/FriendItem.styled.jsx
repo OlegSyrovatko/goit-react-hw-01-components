@@ -1,14 +1,12 @@
 import styled from '@emotion/styled';
 
-
-
 export const Li = styled.div`
   display: flex;
   gap: 10px;
   align-items: center;
   padding: 10px;
   box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.3);
-  &:not(:first-child) {
+  &:not(:first-of-type) {
     margin-top: 15px;
   }
 `;
