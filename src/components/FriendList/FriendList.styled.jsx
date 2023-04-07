@@ -2,8 +2,8 @@ import styled from '@emotion/styled';
 
 export const FriendBlock = styled.ul`
   display: flex;
-  justify-content: flex-start;
-  margin-top: 10px;
+  flex-direction: column;
+  margin-top: 20px;
   width: 300px;
   padding: 20px;
   background-color: ${props => props.theme.colors.white};
