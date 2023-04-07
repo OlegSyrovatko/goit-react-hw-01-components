@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types';
-import defaultAvatar from '../../default-avatar.png'
+import defaultAvatar from 'default-avatar.png'
 import { Card, H2, P, UL, LI, Label, Quantity } from './Profile.styled';
 
 

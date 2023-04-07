@@ -17,7 +17,6 @@ export const StatList = ({ data }) => {
   );
 };
 
-
 StatList.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.exact({

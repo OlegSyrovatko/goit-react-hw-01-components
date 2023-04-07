@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 
 export const TransactionTable = styled.table`
-
   width: 340px;
   padding: 20px;
   background-color: ${props => props.theme.colors.white};
@@ -17,6 +16,7 @@ export const TransactionTable = styled.table`
   td {
     padding: 2px 0px 2px 20px;
   }
+
   th {
     padding: 10px;
     font-weight: bold;
@@ -28,6 +28,7 @@ export const TransactionTable = styled.table`
     color: ${props => props.theme.colors.white};
     background-color: ${props => props.theme.colors.blue};
   }
+  
   tbody {
     tr:nth-of-type(even) {
       background-color: ${props => props.theme.colors.lightblue};

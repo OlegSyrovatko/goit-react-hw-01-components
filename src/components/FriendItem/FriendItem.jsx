@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Li, Onlining, IMG, Perc } from './FriendItem.styled'; 
-import defaultAvatar from '../../default-avatar.png'
+import defaultAvatar from 'default-avatar.png'
 
 
 export const FriendItem = ({ avatar=defaultAvatar, name, isOnline }) => {
